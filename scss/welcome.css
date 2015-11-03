@@ -1,0 +1,41 @@
+* {
+  font-family: 'Slabo 27px', sans-serif;
+}
+.col-1, .col-2, .col-3 {
+  float: left;
+  padding: 0 3em;
+  margin: 30px 0px;
+}
+
+.col-1 {
+  width: 36%;
+}
+.col-1 p {
+  font-size: 1em;
+}
+
+
+.col-2, .col-3 {
+  width: 30%;
+}
+hr {
+  height: 1px;
+  width: 4em;
+  display: block;
+  border: 0;
+  border-bottom: 2px solid #00E5FF;
+  margin: 2rem 0;
+}
+ .wrapper h2 {
+   text-transform: uppercase;
+ }
+ .col-2 p, .col-3 p {
+   color: #F48FB1;
+ }
+.col-2 a, .col-3 a {
+  text-decoration: none;
+  color: #616161;
+}
+.col-2 a:hover, .col-3 a:hover {
+  color: #757575;
+}

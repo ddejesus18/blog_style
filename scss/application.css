@@ -1,0 +1,147 @@
+/*$pop: #F48FB1;
+$back: #2196F3;
+$dark: #BDBDBD;
+$border: #757575;*/
+* {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, p, ul, li {
+  color: #616161;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.50rem;
+}
+h3 {
+  font-size: 1.20rem;
+}
+h4 {
+  font-size: 1.0rem;
+}
+p ul {
+  font-size: 1.18rem;
+}
+#main_navigation {
+  border-top: .2em solid #EEEEEE;
+  border-bottom: .2em solid #EEEEEE;
+  position: fixed;
+  right: .5%;
+  top: .05em;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  z-index: 1; /* since it's a fixed nav, need to have content display behind when scroll */
+  clear: both;
+}
+.name {
+  font-family: "Volkorn";
+  text-decoration: none;
+  float:left;
+  display:flex-inline;
+  color: #BDBDBD;
+  font-size: 2.2em;
+  margin-left: 1.3em;
+  margin-top: 10px;
+  border-bottom: 2px solid #F48FB1;
+  border-top: 2px solid #F48FB1;
+  position: absolute;
+  }
+
+nav {
+float: right;
+height: 4em;
+margin-top: 2.0em;
+margin-bottom: -2.1em;
+padding-bottom: 2.0em;
+margin-right: 1em;
+
+}
+nav a {
+  font-family: "Slabo 27px";
+  font-size: .9em;
+  display: inline-flex;
+  text-decoration: none;
+  color: #616161;
+  text-align: left;
+  padding-left: 2.4em;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: #BDBDBD;
+}
+nav a:after {
+  color: #00E5FF;
+}
+.wrapper {
+  padding-top: 5em;
+  width: 100%;
+}
+.page_title {
+  font-family: 'Slabo 27px', sans-serif;
+  position: relative;
+  width: 100%; /* Did this so text align center can work */
+  margin-top: 90px;
+  text-align: center;
+  clear: both;
+  padding: 2em;
+}
+.page_title p {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: courier;
+  width: 38em;
+  white-space: nowrap;
+  animation: type 4s steps(58, end);
+  -webkit-animation: type 4s steps(58, end);
+  -moz-animation: type 4s steps(58, end);
+  -o-animation: type 4s steps(58, end);
+}
+
+.page_title p span {
+  animation: blink 1s infinite;
+}
+@keyframes type {
+  from {width: 0;}
+}
+@-webkit-keyframes type {
+    from {width: 0; }
+}
+@-moz-keyframes type {
+    from {width: 0; }
+}
+@-o-keyframes type {
+    from {width: 0; }
+}
+@keyframes blink{
+  to{opacity: .0;}
+}
+#wrapper-footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    clear:both;
+    margin-top: -10px;
+  }
+.footer_main {
+  border-top: .2em solid #EEEEEE;
+  margin-bottom: -40px;
+  z-index: 1;
+  background-color: white;
+}
+.copyright {
+  float: left;
+  font-size: .8em;
+  display: inline;
+  position: absolute;
+  margin-left: .7em;
+  margin-top: 1.3em;
+}
+.footer_main nav {
+  float: right;
+  margin-right: 2em;
+  margin-bottom: .6em;
+  margin-top: 1.2em;
+}
