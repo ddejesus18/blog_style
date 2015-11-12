@@ -103,6 +103,36 @@ nav a:after {
 .page_title p span {
   animation: blink 1s infinite;
 }
+.mini_wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 1em 0;
+  margin-bottom: 1em;
+  border: 2px solid #F48FB1;
+}
+label {
+  color: #616161;
+  font-family: 'Slabo 27px', sans-serif;
+}
+textarea {
+  min-height: 15em;
+}
+input[type="submit"] {
+  border:2px solid #F48FB1;
+  background-color: transparent;
+  padding: .4em;
+  font-size: 1em;
+  text-align: center;
+  color: #616161;
+}
+.button:hover {
+  background-color: #F48FB1;
+}
 @keyframes type {
   from {width: 0;}
 }
